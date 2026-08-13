@@ -1,0 +1,24 @@
+name: flutter_clean_boilerplate
+description: Reusable Clean Architecture boilerplate — Riverpod + Dio (Login/POST + Profile/GET examples)
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  dio: ^5.4.3
+  dartz: ^0.10.1
+  equatable: ^2.0.5
+  connectivity_plus: ^6.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
